@@ -37,7 +37,8 @@
         <description></description>
         <display-name>LoginServlet</display-name>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>LoginAndLogout.LoginServlet</servlet-class>
+<!--        <servlet-class>LoginAndLogout.LoginServlet</servlet-class>-->
+        <servlet-class>HttpSessionLoginAndLogout.LoginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
@@ -47,7 +48,8 @@
         <description></description>
         <display-name>ProfileServlet</display-name>
         <servlet-name>ProfileServlet</servlet-name>
-        <servlet-class>LoginAndLogout.ProfileServlet</servlet-class>
+<!--        <servlet-class>LoginAndLogout.ProfileServlet</servlet-class>-->
+        <servlet-class>HttpSessionLoginAndLogout.ProfileServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ProfileServlet</servlet-name>
@@ -57,11 +59,15 @@
         <description></description>
         <display-name>LogoutServlet</display-name>
         <servlet-name>LogoutServlet</servlet-name>
-        <servlet-class>LoginAndLogout.LogoutServlet</servlet-class>
+<!--        <servlet-class>LoginAndLogout.LogoutServlet</servlet-class>-->
+        <servlet-class>HttpSessionLoginAndLogout.LogoutServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LogoutServlet</servlet-name>
         <url-pattern>/LogoutServlet</url-pattern>
     </servlet-mapping>
+
+
+
 
 </web-app>
