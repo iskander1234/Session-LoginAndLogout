@@ -8,7 +8,8 @@
             <servlet-name>s1</servlet-name>
 <!--            <servlet-class>com.example.Session_LoginAndLogout.CookiesInServlet.FirstServlet</servlet-class>-->
 <!--            <servlet-class>HiddenFormField.FirstServlet</servlet-class>-->
-             <servlet-class>URLRewriting.FirstServlet</servlet-class>
+<!--             <servlet-class>URLRewriting.FirstServlet</servlet-class>-->
+             <servlet-class>HttpSession.FirstServlet</servlet-class>
         </servlet>
 
         <servlet-mapping>
@@ -20,7 +21,8 @@
             <servlet-name>s2</servlet-name>
 <!--            <servlet-class>com.example.Session_LoginAndLogout.CookiesInServlet.SecondServlet</servlet-class>-->
 <!--            <servlet-class>HiddenFormField.SecondServlet</servlet-class>-->
-            <servlet-class>URLRewriting.SecondServlet</servlet-class>
+<!--            <servlet-class>URLRewriting.SecondServlet</servlet-class>-->
+            <servlet-class>HttpSession.SecondServlet</servlet-class>
         </servlet>
 
         <servlet-mapping>
