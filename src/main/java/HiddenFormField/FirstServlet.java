@@ -15,7 +15,7 @@ public class FirstServlet extends HttpServlet {
             out.print("Welcome "+n);
 
             //creating form that have invisible textfield
-            out.print("<form action='servlet5'>");
+            out.print("<form action='servlet2'>");
             out.print("<input type='hidden' name='uname' value='"+n+"'>");
             out.print("<input type='submit' value='go'>");
             out.print("</form>");
